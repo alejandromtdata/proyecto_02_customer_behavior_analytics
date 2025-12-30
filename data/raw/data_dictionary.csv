@@ -1,0 +1,34 @@
+file,field,description
+users.csv,user_id,Identificador único del usuario
+users.csv,signup_date,Fecha/hora de alta
+users.csv,country,País (código ISO-2 simplificado)
+users.csv,acquisition_channel,Canal de adquisición principal
+users.csv,utm_campaign,Campaña UTM (puede ser nula)
+users.csv,first_device,Dispositivo del primer acceso
+users.csv,gender,Género (incluye unknown)
+users.csv,age,Edad en años
+users.csv,plan,Plan actual (free/basic/pro/enterprise)
+users.csv,marketing_opt_in,Consentimiento marketing (puede ser nulo)
+users.csv,is_churned,Indicador de churn
+users.csv,churn_date,Fecha/hora de churn (NaT si no churn)
+sessions.csv,session_id,Identificador único de la sesión
+sessions.csv,user_id,Usuario asociado
+sessions.csv,session_start,Inicio de sesión
+sessions.csv,duration_sec,Duración en segundos (puede ser nula)
+sessions.csv,pages_viewed,Páginas vistas (puede ser nula)
+sessions.csv,device,Dispositivo de la sesión
+sessions.csv,traffic_source,Fuente de tráfico de la sesión
+sessions.csv,primary_action,Acción principal de la sesión
+transactions.csv,transaction_id,Identificador único de la transacción
+transactions.csv,user_id,Usuario asociado
+transactions.csv,transaction_ts,Timestamp de compra
+transactions.csv,category,Categoría del producto/servicio
+transactions.csv,currency,Moneda (EUR/USD/GBP)
+transactions.csv,payment_method,Método de pago (puede ser nulo)
+transactions.csv,discount_code,Código de descuento (puede ser nulo)
+transactions.csv,gross_revenue,Importe bruto (neto + impuestos)
+transactions.csv,tax_amount,Impuestos estimados
+transactions.csv,net_revenue,Importe neto tras descuentos
+transactions.csv,status,Estado (paid/refunded/chargeback)
+transactions.csv,refund_ts,Timestamp de reembolso/chargeback (NaT si no aplica)
+transactions.csv,refund_reason,Motivo (si aplica)
